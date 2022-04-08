@@ -64,3 +64,39 @@ Whatever changes you make in Airport Dashboards it reflect back in Central Dashb
 ![IMG_6CB867994A89-1](https://user-images.githubusercontent.com/98630517/155158072-1b7e99c2-6e73-4c50-b28c-bea77e6760b4.jpeg)
 
 If you reload Central Dashboard, it display current changes.
+
+
+
+
+
+Use:
+Spotify API: https://developer.spotify.com/documentation/general/guides/ 
+Postman
+Phalcon to create app
+
+Create an app in phalcon to which uses spotify data of any user and do following
+Step 1:
+Use Postman to create a collection Spotify
+Use its OAuth authoirzation to get access token
+Create requests which are going to be use in our app
+
+Step 2: App in phalcon
+Create a search form with 
+A Textfield to enter search keywords
+filters in checkbox
+Button with name SEARCH
+Filters can be
+"album"
+"artist"
+"playlist"
+"track"
+"show"
+"episode"
+Whatever filters are checked will be included in search api to get results
+When hitting SEARCH button we have to show all the results in different section based on filteres choosen
+for example if "album" and  "artist" are selected then 2 sections will be there in search results
+Creat CRUD of playlist for authenticated user
+Create playlist
+add tracks into it (this you can do from a search results)
+Remove tracks
+
